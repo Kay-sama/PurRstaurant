@@ -1,0 +1,38 @@
+@use "bootstrap";
+
+// Cat-themed palette
+$ginger: #f39c12;
+$cream: #fdf5e6;
+$charcoal: #2c3e50;
+$calico-white: #ffffff;
+
+.bg-cat-ginger { background-color: $ginger; color: white; }
+.bg-cat-cream { background-color: $cream; }
+.bg-cat-charcoal { background-color: $charcoal; color: white; }
+.text-cat-ginger { color: $ginger; }
+
+.navbar {
+  border-bottom: 3px solid $ginger;
+}
+
+.hover-effect {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid rgba($ginger, 0.1) !important;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba($ginger, 0.15) !important;
+    border-color: $ginger !important;
+  }
+}
+
+.badge-ginger {
+  background-color: $ginger;
+  color: white;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, $cream 0%, #fff 100%);
+  border-left: 8px solid $ginger;
+}

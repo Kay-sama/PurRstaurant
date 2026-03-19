@@ -35,17 +35,17 @@ const db = {
         ]
     },
     menu: [
-        { id: 1, name: 'Pizza Margherita', price: 12 },
-        { id: 2, name: 'Spaghetti Carbonara', price: 10 },
-        { id: 3, name: 'Lasagna Bolognese', price: 13 },
-        { id: 4, name: 'Risotto ai Funghi', price: 14 },
-        { id: 5, name: 'Caprese Salad', price: 8 },
-        { id: 6, name: 'Bruschetta al Pomodoro', price: 7 },
-        { id: 7, name: 'Tiramisu', price: 6 },
-        { id: 8, name: 'Panna Cotta', price: 6 },
-        { id: 9, name: 'Focaccia with Rosemary', price: 5 },
-        { id: 10, name: 'Gnocchi al Pesto', price: 11 },
-        { id: 11, name: 'Paw-sta', price: 29 }
+        { id: 1, name: 'Pizza Margherita', description: 'Classic thin-crust pizza topped with fresh tomato sauce, mozzarella, and basil.', price: 12 },
+        { id: 2, name: 'Spaghetti Carbonara', description: 'Creamy pasta with eggs, pecorino cheese, guanciale, and black pepper.', price: 10 },
+        { id: 3, name: 'Lasagna Bolognese', description: 'Layers of pasta, ground beef, and tomato sauce, topped with mozzarella and Parmesan cheese.', price: 13 },
+        { id: 4, name: 'Risotto ai Funghi', description: 'Creamy risotto with wild mushrooms, Parmesan cheese, and butter.', price: 14 },
+        { id: 5, name: 'Caprese Salad', description: 'Fresh mozzarella, ripe tomatoes, basil, and balsamic glaze.', price: 8 },
+        { id: 6, name: 'Bruschetta al Pomodoro', description: 'Toasted bread topped with fresh tomatoes, basil, and garlic.', price: 7 },
+        { id: 7, name: 'Tiramisu', description: 'Layers of espresso-soaked ladyfingers, mascarpone cheese, and cocoa powder.', price: 6 },
+        { id: 8, name: 'Panna Cotta', description: 'Creamy dessert with mascarpone cheese, vanilla, and ladyfingers.', price: 6 },
+        { id: 9, name: 'Focaccia with Rosemary', description: 'Classic Italian flatbread with rosemary and olive oil.', price: 5 },
+        { id: 10, name: 'Gnocchi al Pesto', description: 'Creamy pasta with fresh pesto sauce, mozzarella, and parmesan cheese.', price: 11 },
+        { id: 11, name: 'Paw-sta', description: 'Traditional Italian dessert made with paw paw, cream, and sugar.', price: 29 }
     ],
     employees: [
         { id: 1, username: 'admin', password: 'root', role: 'admin' },
